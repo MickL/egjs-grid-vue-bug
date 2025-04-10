@@ -3,8 +3,7 @@ import { MasonryGrid, JustifiedGrid, FrameGrid, PackingGrid } from "@egjs/vue-gr
 </script>
 
 <template>
-  <masonry-grid
-      class="container"
+  <MasonryGrid
       :gap="10"
       align="justify"
   >
@@ -18,5 +17,5 @@ import { MasonryGrid, JustifiedGrid, FrameGrid, PackingGrid } from "@egjs/vue-gr
     <div class="item">8</div>
     <div class="item">9</div>
     <div class="item">10</div>
-  </masonry-grid>
+  </MasonryGrid>
 </template>
